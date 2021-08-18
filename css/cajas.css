@@ -19,3 +19,24 @@
   text-decoration: none;
   color: #012179;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333333;
+    color: #FFFFFF;
+  }
+  .intro {
+    background-color: #BB41da;
+  }
+  .articulo--principal h2 {
+    color: #BB41da;
+  }
+  .caja__contenido {
+    background-color: #BB41da;
+  }
+  .caja h3 {
+    color: #333333;
+  }
+  .caja p {
+    color: #333333;
+  }
+}
